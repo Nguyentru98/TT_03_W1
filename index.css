@@ -1,0 +1,82 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+  letter-spacing: 1px;
+}
+body {
+  background-image: url("image-W1/anh-nen-chim.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* header */
+.search input {
+  border: none;
+}
+.home-icon i {
+  color: #a0181a;
+}
+.menu-item-1,
+.menu-item-2 {
+  color: #1d864b;
+}
+.cover-image {
+  width: 100%;
+  overflow: hidden;
+}
+.image {
+  background-image: url("image-W1/anh_bia_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.event-title {
+  height: 100%;
+  color: #a0181a;
+  border: 10px solid #a0181a;
+  background-image: url("image-W1/tin-tuc-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-1,
+.card-2,
+.card-3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 21%;
+}
+.card-1 {
+  background-image: url("image-W1/dai-hoc.png");
+}
+.card-2 {
+  background-image: url("image-W1/sau-dai-hoc.png");
+}
+.card-3 {
+  background-image: url("image-W1/vua-hoc-vua-lam.png");
+}
+.arrown {
+  background-image: url('image-W1/arrown-removebg-preview.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 25%;
+  bottom: -10%;
+}
+.card{
+  width: 250px;
+  height: 250px;
+  background-image: url('image-W1/nghien-cu-kh.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box_behind {
+  width: 200px;
+  height: 260px;
+  border-top-width: 20px;
+  border-bottom-width: 20px;
+}
