@@ -14,6 +14,7 @@
         rel="stylesheet">
     <!--style  -->
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
     <!-- icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="icon" href="#">
@@ -26,65 +27,88 @@
     <header>
         <!-- nav -->
         <div class="" style="background-color:#a0181a">
-            <div class="container">
-                <div class=" df jcsb aic">
-                    <div class="school df aic ">
-                        <div class="home-icon mr15 pa15 bgcf">
-                            <i class="fas fa-home fs2"></i>
-                        </div>
-                        <div class="school-name fs1r fwb cf">
-                            <h3>Trường Đại Học Hà Nội</h3>
-                        </div>
+            <div class="plr25">
+                <div class="navbar df">
+                    <div class="home-icon pa15 bgcf aic df">
+                        <i class="fas fa-home fs2"></i>
                     </div>
-
-                    <div class="search df aic bra25 pa5 bgcf plr25">
-                        <input type="text" placeholder="tìm kiếm" class="input ">
-                        <i class="fas fa-search ml100"></i>
-                    </div>
-
-                    <div class="login df">
-                        <div class="icon-user">
-                            <i class="fas fa-user cf"></i>
+                    <div class="df jcsb aic fww w1 mlr15">
+                        <div class="school df aic col-md-4 pa5-xs col-xs-12">
+                            <div class="school-name fs14 fs2r-sm fwb cf">
+                                <h3>Trường Đại Học Hà Nội</h3>
+                            </div>
                         </div>
-                        <div class="pl10 pr10 cf">ĐĂNG NHẬP</div>
-                        <div class="icon-setting">
-                            <i class="fas fa-cog cf"></i>
+                        <div class="search mtb15-xs col-md-4 col-xs-8 pa5-xs">
+                            <div class=" df aic bra25 pa5 bgcf plr15  jcsb w70">
+                                <input type="text" placeholder="tìm kiếm" class="input w1">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="login col-md-4 col-xs-4 jcfe df">
+                            <div class="df aic">
+                                <div class="icon-user">
+                                    <i class="fas fa-user cf"></i>
+                                </div>
+                                <div class="plr10 cf ">ĐĂNG NHẬP</div>
+                                <div class="icon-setting">
+                                    <i class="fas fa-cog cf"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- nav menu -->
-        <div class="nav-menu pa10 mt25 col-xs-12">
-            <div class="row-1">
-                <div class="logo col-xs-6 df aic">
-                    <div class="bgso bgrn col-sm-2 col-xs-4"
-                        style="background-image: url('image-W1/logo.png');padding-bottom: 10%;"></div>
-                    <div class="title col-sm-10 col-xs-8">
-                        <div class="pl25">
-                            <div class="fs18 mb15 ca0181a">Khoa tiếng Bồ Đào Nha</div>
-                            <div class="fs14 fsi">Departamento de Postuguês</div>
+        <div class="nav-menu pa15 cb">
+
+            <div class="row-1-menu df fww cb">
+                <div class="logo col-md-6 col-sm-6 df aic col-xs-12">
+                    <div class="bgso bgrn col-md-2 col-sm-2 col-xs-4 pa0-xs h1"
+                        style="background-image: url('image-W1/logo.png')">
+                    </div>
+                    <div class="title col-md-10 col-sm-10 col-xs-8 ">
+                        <div class="pa15">
+                            <div class="fs18 fs14-sm mb15 ca0181a">Khoa tiếng Bồ Đào Nha</div>
+                            <div class="fs14 fs11-sm fsi">Departamento de Postuguês</div>
                         </div>
                     </div>
                 </div>
 
-                <div class="menu-item-1 col-xs-6 df jcsa fwb">
+                <div class="menu-item-1 col-md-6 col-sm-6 df jcsa fwb col-xs-12 aic">
                     <div>THÔNG BÁO</div>
                     <div>GIỚI THIỆU</div>
                     <div>Q&A</div>
                     <div>LIÊN HỆ</div>
+                    <div class="menu-mobile dn db-xs ptb15" onclick="toggleMenu()">
+                        <i class="fas fa-bars"></i>
+                    </div>
                 </div>
+
             </div>
 
-            <div class="row-2 col-xs-12">
-                <div class="menu-item-2 col-xs-12 df jcsb fwb mt30 plr15">
+            <div class="menu-item-2 df jcsb fwb mt30 dn-xs">
+                <div class="df jcsa col-md-6 col-sm-6">
                     <div>TIN TỨC-SỰ KIỆN</div>
                     <div>ĐÀO TẠO</div>
                     <div>LIÊN KẾT-HỌC BỔNG</div>
+                </div>
+                <div class="df jcsa col-md-6 col-sm-6">
                     <div>SINH VIÊN</div>
                     <div>NGHIÊN CỨU KHOA HỌC</div>
                     <div>GIẢI TRÍ</div>
                 </div>
+            </div>
+
+            <div class="menuMb h200 pa bgcf r0 dn ">
+                <ul class=" df fdc jcsa cgd fwb lh15 h1 pa15">
+                    <li>TIN TỨC-SỰ KIỆN</li>
+                    <li>ĐÀO TẠO</li>
+                    <li>LIÊN KẾT-HỌC BỔNG</li>
+                    <li>SINH VIÊN</li>
+                    <li>NGHIÊN CỨU KHOA HỌC</li>
+                    <li>GIẢI TRÍ</li>
+                </ul>
             </div>
         </div>
 
@@ -95,94 +119,92 @@
     </header>
     <!-- main -->
     <div class="main container">
-        <!-- bem -->
-        <div class="bem-vindo-container">
-            <div class="bem-title tac-sm">
-                <h1 class="mtb50 fs2 cgd">"Bem vindo ao Departamenti de Portugues!"</h1>
-            </div>
-            <div class="bem-content df">
-                <div class="event col-sm-4">
-                    <div class="event-title tac df jcsc aic mlr10">
-                        <h3 class="pa25 bgcf fs2 ">TIN TỨC-SỰ KIỆN</h3>
+        <!-- Tin tức sự kiện-->
+        <div class="pt50 container" id="info_event">
+            <h1 class="cgd fs2 ffs tac mb40 pt15 fs16-xs">
+                "Bem vindo ao Departamento de Portugues"
+            </h1>
+            <div class="flex jcfs">
+                <div class="col-xs-12 col-sm-12 col-md-4 pr10 pa15">
+                    <div class="bgsc wh1 bcr bss bw4 pb43" style="background-image: url('image-W1/tin-tuc-3.png')">
                     </div>
+                    <p class="cr3 fs16 fs11-xs pa tt l50 t50 pa7 bgcf9 w80 tac fwb br bra8">
+                        TIN TỨC - SỰ KIỆN
+                    </p>
                 </div>
-                <div class="col-sm-8">
-                    <div class="col-sm-12 df mb10">
-                        <div class="col-sm-6 ">
-                            <img src="image-W1/tin-tuc-1.png" alt="">
-                        </div>
-                        <div class="col-sm-6 plr15 df fdc jcsb ptb15">
-                            <h1 class="fs2 lh1 cgd">Cơ hội nhận học bổng từ Portugal</h1>
-                            <div class="fs1 fwb tar ">02/02/2021</div>
+                <div class="col-xs-12 col-sm-12 col-md-8 pa15">
+                    <div class="flex jcfs pb10 ptb15-xs">
+                        <img class="col-xs-12 col-sm-6 mb10-xs" src="image-W1/tin-tuc-1.png" alt="" />
+                        <div class="col-xs-12 col-sm-6 ptb10 cgd">
+                            <p class="fwb fs14 fs11-xs"> Cơ hội nhận học bổng từ Portugal</p>
+                            <div class="pa b0 r0 pa10 df aic">02/02/2021</div>
                         </div>
                     </div>
-                    <div class="col-sm-12 df">
-                        <div class="col-sm-6 ">
-                            <img src="image-W1/tin-tuc-2.png" alt="">
-                        </div>
-                        <div class="col-sm-6 plr15 df fdc aife jcsb ptb15">
-                            <h1 class="fs2 lh1 cgd">Tuần lễ văn hóa của khoa Bồ Đào Nha</h1>
-                            <div class="fs1 fwb fr ">08/05/2020</div>
+                    <div class="flex jcfs ptb15-xs">
+                        <img class="col-xs-12 col-sm-6 mb10-xs" src="image-W1/tin-tuc-2.png" alt="" />
+                        <div class="col-xs-12 col-sm-6 ptb10 cgd">
+                            <p class="fwb fs14 fs11-xs">Tuần lễ văn hóa của khoa Bồ Đào Nha</p>
+                            <div class="pa b0 r0 pa10 df aic">08/05/2020</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- number -->
+        <!-- Những con số -->
         <div class="numbers-container ">
             <div class="numbers-title mtb60 tac">
-                <h1 class="fs2 cgd">Những con số ấn tượng</h1>
+                <h1 class="fs2 cgd ffs fs2-xs">Những con số ấn tượng</h1>
             </div>
             <div class="card-number df fww">
-                <div class="col-sm-6 cb">
-                    <div class="plr15 ">
-                        <div class=" df mtb10  b1s aic pa10 bw5 bcrd">
-                            <div class="col-sm-3">
+                <div class="col-md-6 cb mb15">
+                    <div class="plr15 h1 ">
+                        <div class=" df mtb10  b1s aic pa10 bw5 bcrd h1">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <img src="image-W1/cap.png" alt="">
                             </div>
-                            <div class="tac col-sm-9 lh15 cgd">
-                                <div class="fs3">97%</div>
-                                <div class="fs2">Sinh viên ra trường có việc làm</div>
+                            <div class="tac col-md-9 col-sm-9 col-xs-9 lh15 cgd">
+                                <div class="fs3 fs2-xs">97%</div>
+                                <div class="fs2 fs1-xs">Sinh viên ra trường có việc làm</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 cb ">
-                    <div class="plr15 ">
-                        <div class="cb df mtb10  b1s aic pa10 bw5 bcrd">
-                            <div class="col-sm-3">
+                <div class="col-md-6 cb mb15">
+                    <div class="plr15 h1">
+                        <div class="cb df mtb10  b1s aic pa10 bw5 bcrd h1">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <img src="image-W1/sach-removebg-preview.png" alt="">
                             </div>
-                            <div class="tac col-sm-9 lh15 cgd">
-                                <div class="fs3">Số 1</div>
-                                <div class="fs2">Đào tạo tiếng Bồ Đào Nha</div>
+                            <div class="tac col-md-9 col-sm-9 col-xs-9 lh15 cgd">
+                                <div class="fs3 fs2-xs">Số 1</div>
+                                <div class="fs2 fs1-xs">Đào tạo tiếng Bồ Đào Nha</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 cb ">
-                    <div class="plr15 ">
-                        <div class="cb df mtb10 b1s aic pa10 bw5 bcrd">
-                            <div class="col-sm-3">
+                <div class="col-md-6 cb mb15">
+                    <div class="plr15 h1 ">
+                        <div class="cb df mtb10 b1s aic pa10 bw5 bcrd h1">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <img src="image-W1/dai-cau-removebg-preview.png" alt="">
                             </div>
-                            <div class="tac col-sm-9 lh15 cgd">
-                                <div class="fs3">14000+</div>
-                                <div class="fs2">Sinh viên</div>
+                            <div class="tac col-md-9 col-sm-9 col-xs-9 lh15 cgd">
+                                <div class="fs3 fs2-xs">14000+</div>
+                                <div class="fs2 fs1-xs">Sinh viên</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 cb">
-                    <div class="plr15 ">
-                        <div class="cb df mtb10  b1s aic pa10 bw5 bcrd">
-                            <div class="col-sm-3">
+                <div class="col-md-6 cb mb15 ">
+                    <div class="plr15 h1">
+                        <div class="cb df mtb10  b1s aic pa10 bw5 bcrd h1">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 <img src="image-W1/bieu-do-removebg-preview.png" alt="">
                             </div>
-                            <div class="tac col-sm-9 lh15 cgd">
-                                <div class="fs3">15</div>
-                                <div class="fs2">Năm kinh nghiệm giảng dạy</div>
+                            <div class="tac col-md-9 col-sm-9 col-xs-9 lh15 cgd">
+                                <div class="fs3 fs2-xs">15</div>
+                                <div class="fs2 fs1-xs">Năm kinh nghiệm giảng dạy</div>
                             </div>
                         </div>
                     </div>
@@ -193,39 +215,47 @@
         <!-- traine -->
         <div class="traine-container">
             <div class="train-title">
-                <h3 class="mtb60 tac fs2 cgd">Chương trình đào tạo hấp dẫn</h3>
+                <h3 class="mtb60 tac fs2 fs2-xs ffs lh15 cgd">Chương trình đào tạo hấp dẫn</h3>
             </div>
-            <div class="train-card df ">
-                <div class=" card-1  col-sm-4  ">
-                    <div class="df jcsc aic ol z1">
-                        <h3 class="fs2 cf">ĐẠI HỌC</h3>
+            <div class="train-card df fww ">
+                <div class="pa10 col-md-4  col-sm-4 col-xs-12">
+                    <div class=" card-1">
+                        <div class="df jcsc aic ol z1">
+                            <h3 class="fs18 cf">ĐẠI HỌC</h3>
+                        </div>
                     </div>
                 </div>
-                <div class=" card-2 col-sm-4 mlr5  ">
-                    <div class="df jcsc aic ol z1">
-                        <h3 class="fs2 cf">SAU ĐẠI HỌC</h3>
+
+                <div class="pa10 col-md-4  col-sm-4 col-xs-12">
+                    <div class=" card-2 ">
+                        <div class="df jcsc aic ol z1">
+                            <h3 class="fs18 cf">SAU ĐẠI HỌC</h3>
+                        </div>
                     </div>
                 </div>
-                <div class=" card-3  col-sm-4  ">
-                    <div class="df jcsc aic ol z1">
-                        <h3 class="fs2 cf">VỪA HỌC VỪA LÀM</h3>
+                <div class="pa10 col-md-4 col-sm-4 col-xs-12 ">
+                    <div class=" card-3">
+                        <div class="df jcsc aic ol z1">
+                            <h3 class="fs18 cf">VỪA HỌC VỪA LÀM</h3>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
 
         <!-- cơ hội -->
         <div class="opportunity-container">
             <div class="opportunity-title mtb60">
-                <h3 class="fs2 tac cgd">Cơ hội học tập tại nước ngoài</h3>
+                <h3 class="fs2 fs2-xs ffs lh15 tac cgd">Cơ hội học tập tại nước ngoài</h3>
             </div>
-            <div class="opportunity-card df ">
+            <div class="opportunity-card df fww">
 
-                <div class="f1 pa5">
+                <div class="w20 w1-xs">
                     <img src="image-W1/co-hoi-1.png" alt="" style="height: 100%;">
                 </div>
 
-                <div class="f1 pa5">
+                <div class="w20 w1-xs">
                     <div class="h1 bw4 b1s bcg3">
                         <div class="h1 lh15 tac df fdc jcsc plr15 cg3 ">
                             <div class="fs2">LIÊN KẾT</div>
@@ -235,10 +265,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="f1  pa5">
+                <div class="w20 w1-xs ">
                     <img src="image-W1/co-hoi-2.png" alt="" style="height: 100%;">
                 </div>
-                <div class="f1 pa5 ">
+                <div class="w20 w1-xs">
                     <div class="h1 b1s bw4 bcg3">
                         <div class="h1 lh15 tac df fdc jcsc plr15 cg3">
                             <div class="fs2 tac">HỌC BỔNG</div>
@@ -248,17 +278,17 @@
 
                     </div>
                 </div>
-                <div class="f1 pa5">
+                <div class="w20 w1-xs">
                     <img src="image-W1/co-hoi-3.png" alt="" style="height: 100%;">
                 </div>
             </div>
         </div>
         <!-- Sinh viên năng động -->
         <div class="pt50 container plr15-xs" id="student">
-            <h1 class="cgd fs2 tac mb50 pt15 section_title">Sinh viên năng động</h1>
+            <h1 class="cgd fs2 tac mb50 pt15 fs2-xs ffs">Sinh viên năng động</h1>
             <div class="student_box">
                 <div class="bw4 bcgd bss ptb50 relative flex jcfe aic">
-                    <div class="wh300 bgsc pa z3 bra50 image_student w1-xs" style="left: 10px;
+                    <div class="wh300 bgsc pa z3 bra50 image_student w1-xs chạyNền" style="left: 10px;
                     background-image: url('image-W1/student.png');
                   "></div>
                     <div class="arrown"></div>
@@ -271,7 +301,7 @@
         </div>
         <!-- hoạt động khác -->
         <div class="container ptb50" id="activities">
-            <h1 class="cgd fs2 tac mb40 pt15 section_title">Hoạt động khác</h1>
+            <h1 class="cgd fs2 tac mb40 pt15 fs2-xs ffs">Hoạt động khác</h1>
 
             <div class="flex jcsb">
                 <div class="flex jcsb col-sm-12 col-md-6 ptb15">
@@ -286,7 +316,8 @@
                         height: 220px;
                         background-image: url('image-W1/nghien-cu-kh.png');
                       ">
-                                <p class="pa tl50 tt cf fs2 tac ts13 lh15" style="text-shadow: 2px 1px 0px #CE5937;">NGHIÊN CỨU KHOA HỌC</p>
+                                <p class="pa tl50 tt cf fs2 tac ts13 lh15" style="text-shadow: 2px 1px 0px #CE5937;">
+                                    NGHIÊN CỨU KHOA HỌC</p>
                             </div>
                         </div>
                     </div>
@@ -303,7 +334,8 @@
                         height: 220px;
                         background-image: url('image-W1/giai-tri.png');
                       ">
-                                <p class="pa tl50 tt cf fs2 tac ts13" style="text-shadow: 2px 1px 0px #CE5937;">GIẢI TRÍ</p>
+                                <p class="pa tl50 tt cf fs2 tac ts13" style="text-shadow: 2px 1px 0px #CE5937;">GIẢI TRÍ
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -359,5 +391,5 @@
         </div>
     </div>
 </body>
-
+<script src="app.js"></script>
 </html>

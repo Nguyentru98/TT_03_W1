@@ -33,20 +33,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.event-title {
-  height: 100%;
-  color: #a0181a;
-  border: 10px solid #a0181a;
-  background-image: url("image-W1/tin-tuc-3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .card-1,
 .card-2,
 .card-3 {
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 21%;
+  padding-bottom: 65%;
 }
 .card-1 {
   background-image: url("image-W1/dai-hoc.png");
@@ -79,4 +71,18 @@ body {
   height: 260px;
   border-top-width: 20px;
   border-bottom-width: 20px;
+}
+.toggle {
+  display: block;
+}
+.menuMb {
+  animation: slideToLeft 1s ease-in-out ;
+}
+@keyframes slideToLeft {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
 }
