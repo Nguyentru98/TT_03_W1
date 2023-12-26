@@ -50,7 +50,7 @@ body {
   background-image: url("image-W1/vua-hoc-vua-lam.png");
 }
 .arrown {
-  background-image: url('image-W1/arrown-removebg-preview.png');
+  background-image: url("image-W1/arrown-removebg-preview.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100px;
@@ -59,10 +59,10 @@ body {
   left: 25%;
   bottom: -10%;
 }
-.card{
+.card {
   width: 250px;
   height: 250px;
-  background-image: url('image-W1/nghien-cu-kh.png');
+  background-image: url("image-W1/nghien-cu-kh.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -76,13 +76,22 @@ body {
   display: block;
 }
 .menuMb {
-  animation: slideToLeft 1s ease-in-out ;
+  animation: slideToLeft 1s ease-in-out;
 }
 @keyframes slideToLeft {
   0% {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
+}
+.back-to-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 1%;
+  bottom: 5%;
+  background-color: rgba(163, 151, 151, 0.5);
+  cursor: pointer;
 }
