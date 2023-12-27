@@ -28,11 +28,7 @@ body {
   width: 100%;
   overflow: hidden;
 }
-.image {
-  background-image: url("image-W1/anh_bia_2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .card-1,
 .card-2,
 .card-3 {
