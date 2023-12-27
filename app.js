@@ -90,15 +90,12 @@ var images = [
   'image-W1/nghien-cu-kh.png',
 ];
 var currentImageIndex = 0;
-
 function changeBackgroundImage() {
   var imageContainer = document.querySelector('.cover-image');
   imageContainer.style.backgroundImage = 'url(' + images[currentImageIndex] + ')';
-
   currentImageIndex++;
   if (currentImageIndex >= images.length) {
     currentImageIndex = 0;
   }
 }
-
 setInterval(changeBackgroundImage, 2000);
