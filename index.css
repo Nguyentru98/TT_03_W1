@@ -14,12 +14,7 @@ body {
   background-repeat: no-repeat;
 }
 /* header */
-.search input {
-  border: none;
-}
-.home-icon i {
-  color: #a0181a;
-}
+
 .menu-item-1,
 .menu-item-2 {
   color: #1d864b;
@@ -47,11 +42,6 @@ body {
 }
 .arrown {
   background-image: url("image-W1/arrown-removebg-preview.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   left: 25%;
   bottom: -10%;
 }
